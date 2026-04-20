@@ -18,3 +18,13 @@ The fundamental purpose of this agent is to act as a **bridge between Blender’
 Because native `.blend` files cannot be read directly by industry-standard engineering, architectural, or game design tools (like AutoCAD, Fusion 360, Maya, or Unreal Engine), the file format must be translated. However, manual exporting regularly results in lost data, incorrect sizing, or broken modifiers.
 
 Therefore, this tool exists to **automate and standardize that translation**. Its purpose is to instantly convert complex `.blend` workspaces into universally readable `.fbx` geometry files, guaranteeing that the mathematical scale, structural modifiers, and coordinate spaces are strictly pre-configured to be identical to what a CAD engineer expects when opening the file downstream, all without requiring the user to ever open the Blender interface or manually tweak menu settings.
+
+## Requirements for this agent:
+
+1. 1. Install the LLM Requirements Make sure you have the LangChain framework and your preferred LLM provider installed:
+      
+ > pip install langchain langchain-core langchain-openai langchain-google-genai
+
+
+
+
